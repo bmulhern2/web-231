@@ -3,7 +3,7 @@
 ; Title: Assignment 1.1
 ; Author: Izabella Kornelis
 ; Date: 27 November 2019
-; Modified By: Izabella Kornelis
+; Modified By: Brendan Mulhern
 ; Description: A simple JavaScript program using values and variables with at least two errors.
 ;===========================================
 */
