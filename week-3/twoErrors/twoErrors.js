@@ -8,6 +8,7 @@
 ;===========================================
 */
 
+// Defines function isItTwenty which asks the question; is the number 20?
 function isItTwenty(n) {
   if (n === 20 ) {
   console.log("It's not 20");
@@ -15,5 +16,6 @@ function isItTwenty(n) {
   console.log("It's 20");
 }};
 
+// Runs the function isItTwenty.
 isItTwenty(20);
 isItTwenty(19);
