@@ -11,19 +11,19 @@
 let eventKeyCode = 13;
 
 switch (eventKeyCode) {
-  case "A": (eventKeyCode === 13)
+  case 13:
     console.log('The enter key was pressed.')
     break
-  case "B": (eventKeyCode === 16)
+  case 16:
     console.log('The shift key was pressed.')
     break
-  case "C": (eventKeyCode === 32)
+  case 32:
     console.log('The spacebar key was pressed.')
     break
-  case "D": (eventKeyCode === 8)
+  case 8:
     console.log('The backspace / delete was pressed.')
     break
-  case "E":
+  case 23:
     console.log('Unrecognized key.')
     break
 };
