@@ -4,7 +4,7 @@
 ; Author: Brendan Mulhern
 ; Date: 15 December 2010
 ; Modified By: Brendan Mulhern
-; Description:
+; Description Created a switch statement and ran a variable thorugh it.
 ;===========================================
 */
 
