@@ -8,8 +8,10 @@
 ;===========================================
 */
 
+// Variable is defined.
 let eventKeyCode = 13;
 
+// Switch statement is created
 switch (eventKeyCode) {
   case 13:
     console.log('The enter key was pressed.')
@@ -27,3 +29,5 @@ switch (eventKeyCode) {
     console.log('Unrecognized key.')
     break
 };
+
+// end program
