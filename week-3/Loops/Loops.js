@@ -30,9 +30,9 @@ function logMatch(num1, num2) {
 
 for (let i = 0; i < 10; i++) {
     if (i = 1) {
-      var num1 = Math.random();
+      var num1 = Math.floor(Math.random());
 } else if (i = 3) {
-      var num3 = Math.random();
+      var num3 = Math.floor(Math.random());
 }};
 
 if (match(num1, num3) === "True") {
