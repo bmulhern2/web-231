@@ -29,13 +29,12 @@ function logMatch(num1, num2) {
 
 // This is where the for loop is; I commented it out because it wouldn't run becuase it was infitite.
 for (let i = 0; i < 10; i++) {
-  var num1 = Math.floor(Math.random());
-  var num3 = Math.floor(Math.random());
+  var num[i] = Math.floor(Math.random());
 };
-// Here is where the functions match; logMismatch are run.
-if (match(num1, num3) === "True") {
-  logMismatch(num1, num3);
-// Here is where match and logMatch are run.
-} else  {
-  logMatch(num1, num3);
+// Here is where the functions match; logMatch are run.
+if (match(num[1], num[3]) === "True") {
+  logMatch(num[1], num[3]);
+// Here is where match and logMismatch are run.
+} else {
+  logMismatch(num[1], num[3]);
 };
