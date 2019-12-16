@@ -19,7 +19,7 @@ function match(num1, num2) {
 
 // Defines the function logMismatch which states if the numbers are not equal or not.
 function logMismatch(num1, num2) {
-    console.log(num1 + " does equal " + num2);
+    console.log(num1 + " does not equal " + num2);
     };
 
 // Defines the function logMatch which states if the two values are equal.
@@ -32,10 +32,10 @@ for (let i = 0; i < 10; i++) {
   var num1 = Math.floor(Math.random());
   var num3 = Math.floor(Math.random());
 };
-// Here is where the functions match; logmatch are run.
+// Here is where the functions match; logMismatch are run.
 if (match(num1, num3) === "True") {
-  logMatch(num1, num3);
-// Here is where match and logMismatch are run.
-} else {
   logMismatch(num1, num3);
+// Here is where match and logMatch are run.
+} else  {
+  logMatch(num1, num3);
 };
