@@ -1,0 +1,16 @@
+/*
+============================================
+; Title: Discussion Board 4.1
+; Author: Brendan Mulhern
+; Date: 17 December 2019
+; Modified By: Brendan Mulhern
+; Description:
+;===========================================
+*/
+// Defines Array
+var array = ["1", 2, 5, 7, 9];
+// For Loop printing out the array
+for (i=0; i<array.length; i++) {
+// Prints out the array
+  console.log(array[x]);
+};
