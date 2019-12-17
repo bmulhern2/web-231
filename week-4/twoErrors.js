@@ -4,7 +4,7 @@
 ; Author: Brendan Mulhern
 ; Date: 17 December 2019
 ; Modified By: Brendan Mulhern
-; Description:
+; Description: This is a program that has two errors in it.
 ;===========================================
 */
 // Defines Array
