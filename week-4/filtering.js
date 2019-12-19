@@ -4,7 +4,7 @@
 ; Author: Brendan Mulhern
 ; Date: 19 December 2019
 ; Modified By: Brendan Mulhern
-; Description:
+; Description: ; Description: This program prints out the contents of an array and matches a selcted value.
 ;===========================================
 */
 // Creats a string array of 5 vehicles
