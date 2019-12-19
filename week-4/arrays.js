@@ -7,10 +7,13 @@
 ; Description: This is a program that displays the qualities of arrays.
 ;===========================================
 */
-var fruit = ["Pear", "Apple", "Orange", "Blackberry", "Blueberry"];
 
+// Defines an array of five different fruits
+var fruit = ["Pear", "Apple", "Orange", "Blackberry", "Blueberry"];
+// Defines function getFruit with parameter array.
 function getFruit(array) {
+// Prints out the array
   console.log(array);
 };
-
+// Runs the function with the fruit array.
 getFruit(fruit);
