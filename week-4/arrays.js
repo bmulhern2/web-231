@@ -12,7 +12,7 @@
 var fruit = ["Pear", "Apple", "Orange", "Blackberry", "Blueberry"];
 // Defines function getFruit with parameter array.
 function getFruit(array) {
-// Prints out the array
+// Prints out the array with a for loop
 for (i = 0; i < array.length; i++) {
   console.log(array[i]);
 }};
