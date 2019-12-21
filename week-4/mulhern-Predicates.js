@@ -23,11 +23,13 @@ if (state[i] === selected) {
 var filteredStates = states.filter(getState);
 // Displays content of orginal array
 console.log("Original Array");
-// For loop defining orig
-console.log(states);
+// For loop defining original Array
+for (i = 0; i < states.length; i++) {
+console.log(states[i]);
+};
 // Displays content of updates array
-console.log("Updated Array");
-console.log(filteredStates[0]);
+console.log("Filtered Array");
+console.log(filteredStates);
 // Displays selected value
 console.log("Selected Value");
 console.log(selected);
