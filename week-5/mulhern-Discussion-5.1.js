@@ -28,11 +28,15 @@ const position5 = soccerPosition.set('Coach', 'Coach');
 
 // Defines a function of printPositions
 function printPositions(key, value) {
-// Defines a for loop that prints positions
 
-for (i=0; i <= 4; i++) {
+// Defines a for loop that prints positions
+for (i=0; i <= soccerPosition.length(); i++) {
   console.log(key + ' gets to ' + value);
 }};
 
 // Prints Poistions
-printPositions();
+printPositions(position1);
+printPositions(position2);
+printPositions(position3);
+printPositions(position4);
+printPositions(position5);
