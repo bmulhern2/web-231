@@ -7,6 +7,8 @@
 ; Description: This program defines an array of composer objects and prints out the array.
 ;===========================================
 */
+
+// Defines array
 var realAndFakePeople = [
   {
     firstName: 'Herbie',
@@ -33,5 +35,5 @@ var realAndFakePeople = [
     lastName: 'Mikelson',
   },
 ];
-
+// Prints out array
 realAndFakePeople.forEach(function(name){console.log(name.firstName + " " + name.lastName)});
