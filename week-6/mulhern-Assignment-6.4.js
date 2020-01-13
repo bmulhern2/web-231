@@ -7,6 +7,8 @@
 ; Description: This is a program that covers Nested Object Literals.
 ;===========================================
 */
+
+// Defines object: ticket.
 var ticket = {
   id: "2000",
   name: "Parked In Wrong Spot",
@@ -20,8 +22,13 @@ var ticket = {
   }
 }
 
+// Prints out name
 console.log("Brendan Mulhern");
+// Prints out assignment
 console.log("Assignment 6.4");
+// Prints out date
 console.log("1/13/20");
+// New line
 console.log("");
+// Prints out ticket information
 console.log("Ticket " + ticket.id + " was created on " + ticket.dateCreated + " and assigned to employee " + ticket.person.firstName + " " + ticket.person.lastName + " (" + ticket.person.jobTitle + ").");
