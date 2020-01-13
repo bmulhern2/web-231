@@ -7,3 +7,12 @@
 ; Description: This is a program that covers Object Literals
 ;===========================================
 */
+var ticketSystem = [
+  {
+    id: "1",
+    name: "Sally Mae",
+    requestor: "259584"
+  }
+];
+
+ticketSystem.forEach(function(ticketSystem){console.log(ticketSystem.id + " " + ticketSystem.name + " " + ticketSystem.requestor)});
