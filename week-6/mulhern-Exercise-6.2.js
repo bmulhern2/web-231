@@ -1,6 +1,6 @@
 /*
 ============================================
-; Title: Discussion Board 6.1
+; Title: Exercise 6.2
 ; Author: Brendan Mulhern
 ; Date: 12 January 2020
 ; Modified By: Brendan Mulhern
