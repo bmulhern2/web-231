@@ -55,9 +55,9 @@
   </div>
   <script>
     function submit(text, output) {
-      text = document.getElementByID('#input');
+      text = document.querySelector('#input');
       output = document.querySelector('#output');
-      output.innerHTML = text;
+      output.innerHTML = text.value;
     };
   </script>
   </body>
