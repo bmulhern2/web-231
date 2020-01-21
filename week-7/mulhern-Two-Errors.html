@@ -1,0 +1,64 @@
+<!---
+============================================
+; Title: Discussion Board 7.1
+; Author: Brendan Mulhern
+; Date: 21 January 2020
+; Modified By: Brendan Mulhern
+; Description: This is html file with two errors.
+;===========================================
+---->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Two Errors</title>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    } html {
+      text-align:center;
+    } header {
+      background: orange;
+      color: white;
+    } input {
+      height: 5vw;
+      width: 50vw;
+    } #body {
+      margin-top: 5vw;
+    } body {
+      background: yellow;
+      color: blue;
+    } button {
+      margin-top: 5vw;
+      height: 5vw;
+      width: 20vw;
+      background: orange;
+      color: white;
+    } h2 {
+      margin-top: 5vw;
+    }
+  </style>
+  </head>
+  <body>
+  <header>
+    <h1>Two Errors</h1>
+  </header>
+  <div id="body">
+  <h1>Enter Text Here:</h1>
+  <input id="input"></input>
+  <div>
+  <button onclick="submit();">Enter</button>
+  </div>
+  <h2>Text You Entered:</h2>
+  <div id="output"></div>
+  </div>
+  <script>
+    function submit(text, output) {
+      text = document.getElementByID('#input');
+      output = document.querySelector('#output');
+      output.innerHTML = text;
+    };
+  </script>
+  </body>
+</html>
