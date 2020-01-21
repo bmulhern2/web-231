@@ -1,0 +1,6 @@
+#index {
+  background: blue;
+  color: white;
+} #two, #four {
+  background: lightblue;
+}
