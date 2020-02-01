@@ -1,0 +1,62 @@
+<!---
+============================================
+; Title: Exercise 8.2
+; Author: Brendan Mulhern
+; Date: 1 Feburary 2020
+; Modified By: Brendan Mulhern
+; Description: This is html file focused on Dynamic HTML.
+;===========================================
+---->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    } html {
+      font-family: Roboto;
+      text-align: center
+    } header {
+      background: orange;
+      text-align: center;
+    } body {
+    } header {
+      margin-bottom: 20px;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Fruits</h1>
+    </header>
+  </body>
+  <script>
+    var fruits = [
+        {
+          id: 1,
+          type: "Apple"
+        },
+        {
+          id: 2,
+          type: "Pear"
+        },
+        {
+          id: 3,
+          type: "Banana"
+        }
+    ];
+    var out = "<ul>";
+    for (i=0; i<fruits.length; i++) {
+      out += "<li>" + fruits[i].id + " " + fruits[i].type + "</li>";
+    };
+      out += "</ul>";
+    var titleName = "Fruits";
+    var title = "<h1>" + titleName + "</h1>";
+    document.write(title);
+    document.write(out);
+  </script>
+</html>
