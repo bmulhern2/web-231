@@ -1,0 +1,105 @@
+<!---
+============================================
+; Title: Exercise 8.3
+; Author: Brendan Mulhern
+; Date: 1 Feburary 2020
+; Modified By: Brendan Mulhern
+; Description: This is html file focused on jQuery.
+;===========================================
+---->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+    * {
+      margin: 0px;
+      padding: 0px;
+    } html {
+      text-align: center;
+      font-family: Roboto;
+    } header {
+      background: blue;
+      color: white;
+    } div {
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+  </style>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <body>
+    <header>
+    <h1>Exercise 8.3</h1>
+    </header>
+    <div id="data">
+    <h1>Lorem ipsum</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam iaculis suscipit gravida. Quisque quis lorem velit. Nulla ac bibendum ligula. In non risus vitae dui commodo rutrum sed et nibh. Mauris felis nulla, porttitor a ante nec, placerat mollis urna. Integer dignissim velit eu convallis consectetur. Donec sagittis vitae mauris et bibendum. Suspendisse potenti. Nulla in commodo libero. Curabitur tempus, nisl ac porta scelerisque, dolor nibh bibendum nulla, in sodales lacus sapien eget elit. Nulla vitae tellus in leo condimentum dapibus eu quis turpis. Cras vitae tellus mi. Vivamus vel pellentesque quam, ac dignissim lorem.</p>
+  <button id="toggle">Toggle</button>
+  </div>
+  <div id="table">
+  <table>
+    <tr>
+      <th id="id1">ID</th>
+      <th id="type1">Type</th>
+    </tr>
+    <tr>
+      <td id="id2">1</td>
+      <td id="type2">Apple</td>
+    </tr>
+    <tr>
+      <td id="id3">2</td>
+      <td id="type4">Pear</td>
+    </tr>
+    <tr>
+      <td id="id4">3</td>
+      <td id="type4">Banana</td>
+    </tr>
+    <tr>
+      <td id="id5">4</td>
+      <td id="type5">Orange</td>
+    </tr>
+    <tr>
+      <td id="id6">5</td>
+      <td id="type6">Kiwi</td>
+    </tr>
+    </table>
+    </div>
+  </body>
+  <script>
+    $('#toggle').on('click', function() {
+      $('#data').toggle();
+    });
+    $('#id1').on('click', function(id1, type1){
+      id1 = $('#id1');
+      type1 =  $('#type1');
+      alert(id1 + " " + type1);
+    });
+    $('#id2').on('click', function(id2, type2){
+      id2 = $('#id2');
+      type2 =  $('#type2');
+      alert(id2 + " " + type2);
+    });
+    $('#id3').on('click', function(id3, type3){
+      id3 = $('#id3');
+      type3 =  $('#type3');
+      alert(id3 + " " + type3);
+    });
+    $('#id4').on('click', function(id4, type4){
+      id4 = $('#id4');
+      type4 =  $('#type4');
+      alert(id4 + " " + type4);
+    });
+    $('#id5').on('click', function(id6, type6){
+      id6 = $('#id6');
+      type6 =  $('#type6');
+      alert(id6 + " " + type6);
+    });
+    $('#id6').on('click', function(id1, type1){
+      id1 = $('#id1');
+      type1 =  $('#type1');
+      alert(id1 + " " + type1);
+    });
+  </script>
+</html>
