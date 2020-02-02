@@ -1,0 +1,89 @@
+<!---
+============================================
+; Title: Assignment 8.4
+; Author: Brendan Mulhern
+; Date: 2 Feburary 2020
+; Modified By: Brendan Mulhern
+; Description: This is html file that includes putting together all that was learned in Module 8.
+;===========================================
+---->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Assignment 8.4</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- you will need to the href to point to your root directories css file -->
+  <style type="text/css">
+    #employee tbody tr:hover {
+      cursor: pointer;
+      background-color: #ffff99;
+    }
+  </style>
+</head>
+<body>
+
+<div id="emps"></div>
+<button class="btn" onclick="getEmployee();">HERES A BUTTON</button>
+<table>
+  <tr>
+    <th>id</th>
+    <th>firstName</th>
+    <th>lastName</th>
+    <th>title</th>
+  </tr>
+  <script>
+    class employee {
+      constructor(id, firstName, lastName, title) {
+      id = this.id;
+      firstName = this.firstName;
+      lastName = this.lastName;
+      title = this.title;
+    }}
+
+    new employee(1, "Bob", "Hobbit", "Programmer 1");
+    new employee(2, "Mary", "Hankin", "Programmer 2");
+    new employee(3, "James", "Fevroe", "Programmer 3");
+    new employee(4, "Andy", "Shoe", "Programmer 4");
+    new employee(5, "Bob", "Book", "Programmer 5");
+
+    function getEmployee(output) {
+      //alert("Hello");
+      for (i=0; i>5; i++) {
+        output += "<tr>" + "<td>" + employee[i].id + "</td>" + "</tr>";
+        output += "<tr>" + "<td>" + employee[i].firstName + "</td>" + "</tr>";
+        output += "<tr>" + "<td>" + employee[i].lastName + "</td>" + "</tr>";
+        output += "<tr>" + "<td>" + employee[i].title + "</td>" + "</tr>";
+      }
+      output += "</table>";
+      document.write(output.value);
+      };
+  </script>
+    </body>
+<!----<script type="text/javascript">
+
+  // jQuery onClick event
+  // Don't remove this, just add your code to the body of the event (curly braces)
+  $('button').on('click', () => {
+function getEmployee(employee.id, employee.fistName, employee.lastName, employee.title) {
+    class employee {
+      constuctor(id, firstName, lastName, title) {
+        id = this.id;
+        firstName = this.firstName;
+        lastName = this.lastName;
+        title = this.title;
+      }};
+
+      new employee(1, "Bob", "Hobbit", "Programmer 1");
+      new employee(2, "Mary", "Hankin", "Programmer 2");
+      new employee(3, "James", "Fevroe", "Programmer 3");
+      new employee(4, "Andy", "Shoe", "Programmer 4");
+      new employee(5, "Bob", "Book", "Programmer 5");
+
+
+    };
+  });
+</script>----->
+</html>
