@@ -35,6 +35,7 @@
     <th>title</th>
   </tr>
   <script>
+    // defines employee object
     class employee {
       constructor(id, firstName, lastName, title) {
       id = this.id;
@@ -42,15 +43,15 @@
       lastName = this.lastName;
       title = this.title;
     }}
-
+    // defines 5 employees
     new employee(1, "Bob", "Hobbit", "Programmer 1");
     new employee(2, "Mary", "Hankin", "Programmer 2");
     new employee(3, "James", "Fevroe", "Programmer 3");
     new employee(4, "Andy", "Shoe", "Programmer 4");
     new employee(5, "Bob", "Book", "Programmer 5");
-
+    // defines function
     function getEmployee(output) {
-      //alert("Hello");
+      alert("Hello");
       for (i=0; i>5; i++) {
         output += "<tr>" + "<td>" + employee[i].id + "</td>" + "</tr>";
         output += "<tr>" + "<td>" + employee[i].firstName + "</td>" + "</tr>";
@@ -58,6 +59,7 @@
         output += "<tr>" + "<td>" + employee[i].title + "</td>" + "</tr>";
       }
       output += "</table>";
+      // prints table
       document.write(output.value);
       };
   </script>
